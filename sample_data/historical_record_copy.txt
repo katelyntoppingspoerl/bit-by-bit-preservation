@@ -1,0 +1,5 @@
+Fictional Municipal Archive
+Record ID: 001
+Year: 1924
+Description: Sample historical document for digital preservation testing.
+This record has been modified for integrity testing.
