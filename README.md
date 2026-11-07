@@ -97,3 +97,23 @@ My professional background includes public administration, records management, l
 After completing my IT training and earning my CompTIA A+ certification, I wanted to create something that connected those experiences with my interest in digital archives and long-term information preservation.
 
 This project is an opportunity to apply technical skills to a subject I genuinely care about: ensuring that information remains organized, trustworthy, and accessible for the people who need it.
+
+## Automated Tests
+
+The project uses Python’s built-in `unittest` framework.
+
+From the repository’s main folder, run:
+
+```bash
+python -m unittest -v test_archive
+```
+
+The four tests check that:
+
+- Identical files produce matching SHA-256 hashes.
+- Different files produce different hashes.
+- The integrity checker detects a modified file.
+- The duplicate finder identifies matching files and excludes a unique file.
+
+Tests use temporary files that are automatically cleaned up.
+No additional packages are required.
